@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <div class="px-4 py-2 w-[20%] bg-white overflow-auto h-[100vh] " style="box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05)">
+    <div class="px-4 py-2 w-max inline-block bg-white overflow-auto h-[100vh] " style="box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05)">
         <img src="@/assets/images/logo.png" alt="" />
         <section class="flex flex-col">
             <h1 class="flex px-2 text-main-blue text-base font-medium mt-8">
