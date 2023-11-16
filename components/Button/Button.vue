@@ -21,7 +21,7 @@ export default {
             type: String,
         },
         className: {
-            type: String, // Change the property name to className
+            type: String, 
         },
     },
 };
