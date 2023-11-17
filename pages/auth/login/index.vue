@@ -48,5 +48,5 @@ export default {
 }
 </script>
 <style scoped>
-@import url('./login.css');
+@import url('../auth.css');
 </style>

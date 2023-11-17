@@ -29,7 +29,7 @@
 </template>
 
 <style scoped>
-@import url('./register.css');
+@import url('../auth.css');
 </style>
 <script>
 export default {
