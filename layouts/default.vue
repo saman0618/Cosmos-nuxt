@@ -1,15 +1,17 @@
 <template>
-    <div class="app-container">
-      <Sidebar />
-      <div class="content-container">
-        <Header />
-       
-        <div class="main-content">
-          <Nuxt />
-        </div>
+  <div class="flex h-[100vh]">
+    <Sidebar />
+    <div class=" flex flex-col flex-1 ">
+      <Header />
+
+      <div class="flex-3">
+        <Nuxt />
+        <Kalendar />
+
       </div>
     </div>
-  </template>
+  </div>
+</template>
   
   <style scoped>
   .app-container {
