@@ -1,4 +1,4 @@
-<template>
+ <template>
     <div class="relative inline-flex">
       <button
         ref="trigger"
