@@ -43,7 +43,7 @@
           </section>
           <h2 class="mx-1 text-[16px] text-[#0C0B42] font-medium">182</h2>
         </div>
-        <div class="bg-[#FAFBFE] flex justify-between w-full rounded-xl p-2 items-center mt-1">
+        <div class="bg-[#FFBA0726] flex justify-between w-full rounded-xl p-2 items-center mt-1">
           <section class="flex items-center">
             <!-- <img src="@/assets/icon/1 orin.svg"  alt="" /> -->
             <h1 class="mx-5 text-[16px] text-[#0C0B42] font-medium">74</h1>
