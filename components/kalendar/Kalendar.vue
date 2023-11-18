@@ -8,7 +8,9 @@ export default {
 
 
 <template>
-    <div class="flex items-center  w-full p-8">
+    <div class="   p-2">
+    <h1 class=" text-[18px] text-[#0C0B42] font-medium my-3">Tadbirlar va musobaqalar</h1>
+
       <div class="flex bg-white shadow-full rounded-xl border-2 border-slate-300">
         <div class="py-6">
           <ul class="flex flex-col text-xs"></ul>

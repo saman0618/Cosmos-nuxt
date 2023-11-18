@@ -1,8 +1,8 @@
 
 <template>
-  <div class="px-8 mb-10 ">
-    <h1 class=" text-[16px] text-[#0C0B42] font-medium my-4">Sizning sarguzasht yo‘lingiz</h1>
-    <div class="bg-linear-gradient w-[81%] rounded-xl py-4 px-8">
+  <div class="px-8 mb-10 w-full">
+    <h1 class=" text-[18px] text-[#0C0B42] font-medium my-4">Sizning sarguzasht yo‘lingiz</h1>
+    <div class="bg-linear-gradient w-full rounded-xl py-4 px-8">
       <img class="w-20" src="@/assets/images/kosmonavt.png" alt="" />
       <div class="flex justify-between relative">
         <div

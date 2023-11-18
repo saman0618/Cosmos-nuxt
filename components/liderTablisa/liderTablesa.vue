@@ -1,10 +1,10 @@
 <template>
-  <div class="px-8 py-4">
+  <div class="px-8 py-4 w-[100%]">
     <h1 class="mb-4 text-[#0C0B42] font-medium text-[18px]">
       Yutuqlar va reyting
     </h1>
-    <div class="p-4 bg-white rounded-xl shadow-[0_0_3px_0_#0000001A] flex">
-      <div class="grid grid-cols-3 gap-x-8 ">
+    <div class="p-4 bg-white rounded-xl  shadow-[0_0_3px_0_#0000001A] flex">
+      <div class="grid grid-cols-3  w-[50%] mb-[-3%]">
         <img src="@/assets/icon/qizil pat.svg" alt="" />
         <img src="@/assets/icon/zamok.svg" alt="" />
         <img src="@/assets/icon/zamok.svg" alt="" />
