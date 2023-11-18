@@ -61,7 +61,6 @@
 <script>
 export default {
   name: "LiderTablesa",
-  props: "",
 };
 </script>
 

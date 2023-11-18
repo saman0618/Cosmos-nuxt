@@ -1,13 +1,16 @@
 <template>
-  <div class="flex h-[100vh]">
-    <Sidebar />
-    <div class="flex flex-col flex-1">
-      <Header />
+    <div class="flex h-[100vh]">
+      <Sidebar />
+      <div class=" flex flex-col flex-1 ">
+        <Header />
+       
+        <div class="flex-3">
+          <Nuxt />
+          
 
-      
-      <div class="flex-3">
-        <Nuxt />
-
+          <Planeta/>
+          <LiderTablesa/>
+        </div>
       </div>
     </div>
   </div>
