@@ -1,5 +1,5 @@
 <template>
-    <header class="sticky top-0 bg-white dark:bg-[#182235] z-30" style="box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);">
+    <header class="sticky top-0 bg-white  z-30" style="box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);">
         <div class="px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 -mb-px">
                 <!-- Header: Left side -->
