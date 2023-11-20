@@ -5,4 +5,12 @@
 body {
   background-color: rgba(7, 102, 255, 0.034);
 }
-
+@tailwind components;
+@layer components{
+  .title{
+    @apply text-2xl font-semibold
+  }
+  .card {
+    @apply shadow-md rounded-xl p-6
+  }
+}

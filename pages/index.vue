@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout>
-        <div class="px-4 sm:px-6 lg:px-8 pt-5 ">
+        <div>
             <h1 class="text-[18px]">Salom, Bobur 👋</h1>
             <div class="flex justify-between rounded-xl bg-white  border-2  border-slate-300 p-4 mt-5 ">
                 <h1>Sizga bugun 10 token berildi</h1>

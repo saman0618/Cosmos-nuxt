@@ -3,11 +3,8 @@
     <Sidebar />
     <div class="flex flex-col flex-1">
       <Header />
-
-      
-      <div class="flex-3">
+      <div class="flex-3 p-6">
         <Nuxt />
-
       </div>
     </div>
   </div>
@@ -27,8 +24,10 @@
 }
 
 .main-content {
-  flex: 3; /* Adjust the proportion as needed */
-  padding: 20px; /* Add padding as needed */
+  flex: 3;
+  /* Adjust the proportion as needed */
+  padding: 20px;
+  /* Add padding as needed */
 }
 
 /* Add any other styling for Header and Sidebar here */
