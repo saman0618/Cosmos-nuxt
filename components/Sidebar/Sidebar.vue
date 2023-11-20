@@ -20,62 +20,62 @@ export default {
         <h1 class="flex px-2 text-[#0766FF] text-[18px] font-medium mt-8">
           <img
             class="mr-1"
-            src="@/assets\icon\Home Smile Angle.svg"
+            src="@/assets/icon/Home Smile Angle.svg"
             alt=""
           />Bosh sahifa
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets\icon\Laptop.svg" alt="" />Kurslar
+          <img class="mr-1" src="@/assets/icon/Laptop.svg" alt="" />Kurslar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
           <img
             class="mr-1"
-            src="@/assets\icon\Checklist Minimalistic.svg"
+            src="@/assets/icon/Checklist Minimalistic.svg"
             alt=""
           />Testlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
           <img
             class="mr-1"
-            src="@/assets\icon\Users Group Rounded.svg"
+            src="@/assets/icon/Users Group Rounded.svg"
             alt=""
           />O‘quvchilar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
           <img
             class="mr-1"
-            src="@/assets\icon\Case Minimalistic.svg"
+            src="@/assets/icon/Case Minimalistic.svg"
             alt=""
           />Hodimlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets\icon\Letter.svg" alt="" />SMS xabarlar
+          <img class="mr-1" src="@/assets/icon/Letter.svg" alt="" />SMS xabarlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets\icon\Cart.svg" alt="" />Shop
+          <img class="mr-1" src="@/assets/icon/Cart.svg" alt="" />Shop
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets\icon\Calendar.svg" alt="" />Tadbirlar
+          <img class="mr-1" src="@/assets/icon/Calendar.svg" alt="" />Tadbirlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
           <img
             class="mr-1"
-            src="@/assets\icon\Shield Star.svg"
+            src="@/assets/icon/Shield Star.svg"
             alt=""
           />Yutuqlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets\icon\Cup Star.svg" alt="" />Reytinglar
+          <img class="mr-1" src="@/assets/icon/Cup Star.svg" alt="" />Reytinglar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
           <img
             class="mr-1"
-            src="@/assets\icon\Pie Chart 2.svg"
+            src="@/assets/icon/Pie Chart 2.svg"
             alt=""
           />Analitika
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets\icon\Gamepad.svg" alt="" />O‘yinlar
+          <img class="mr-1" src="@/assets/icon/Gamepad.svg" alt="" />O‘yinlar
         </h1>
       </section>
       <h1 class="text-[18px] text-[#63628266] font-medium px-2 mt-14">
