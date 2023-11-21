@@ -30,14 +30,18 @@
                 <Checkbox labelText="Eslab qolish" />
                 <a href="#" class="text-[#0766FF]">Parolni unutdingizmi?</a>
             </div>
-            <Button label="Davom eting" />
+            <button class="button">
+                Davom eting
+            </button>
             <div class="inline-flex items-center justify-center w-full">
                 <hr class="w-64 h-px my-4 bg-gray-200 border-0 dark:bg-gray-700">
                 <span
                     class="absolute px-3 font-medium text-[#7D7D88] -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">yoki</span>
             </div>
-            <Button icon="@/assets/images/google.svg" class="bg-transparent border-2" labelClass="text-[#7D7D88]"
-                label="Google bilan kiring" />
+            <button class="button bg-transparent border buttonIconFlex" style="background: transparent;">
+                <img src="@/assets/images/google.svg" alt="">
+                <span class="text-[#7d7d88]">Google bilan kiring</span>
+            </button>
             <h1 class="text-[#7D7D88] text-center">Yangimisiz? <a href="#" class="text-[#0766FF]">Ro'yxatdan o'ting</a></h1>
         </div>
     </div>

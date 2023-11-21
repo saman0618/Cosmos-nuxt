@@ -1,51 +1,58 @@
 <template>
-  <div>
-    <label v-if="label">{{ label }}</label>
-    <Button :text="buttonText" :classes="buttonClasses">
-      <template v-slot:label>
-        <!-- Дополнительный компонент для label, если необходимо -->
-        <span>Additional Label</span>
-      </template>
-      <template v-slot:icon>
-        <!-- Изображение, передаваемое через слот -->
-        <img :src="buttonIcon" :alt="buttonText" class="button-icon" />
-      </template>
-    </Button>
-  </div>
+  <button type="button" :class="className"
+    class="">
+    <div class="flex gap-2 items-center justify-center">
+      <!-- Используйте v-if для условного рендеринга изображения -->
+      <img v-if="icon" :src="icon" alt="">
+      <p :class="labelClass">{{ label }}</p>
+    </div>
+  </button>
 </template>
 
 <script>
-
 export default {
   props: {
-    buttonText: {
-      type: String,
-      default: 'Click me',
-    },
-    buttonIcon: {
-      type: String,
-      default: null,
-    },
-    buttonClasses: {
-      type: String,
-      default: 'text-white bg-[#0766FF] focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-6 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800',
-    },
     label: {
-      type: String,
-      default: null,
-    },
+        type: String,
+      },
+      icon: {
+        type: String,
+      },
+      labelClass: {
+        type: String,
+      },
+      className: {
+        type: String,
+      },
   },
 };
 </script>
 
 <style scoped>
-/* Ваши стили могут быть перенесены сюда */
+.custom-button {
+  /* Стили для кнопки, по вашему усмотрению */
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
 .button-icon {
-  /* Стили для изображения, если необходимо */
+  /* Стили для иконки, если необходимо */
   width: 20px;
-  /* Пример ширины */
   height: 20px;
-  /* Пример высоты */
-  /* Добавьте другие стили по необходимости */
+  margin-right: 5px;
 }
 </style>
