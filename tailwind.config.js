@@ -11,7 +11,9 @@ module.exports = {
       colors: {
         blueTheme: '#00B9FF',
         purpleTheme: '#7600ED',
-        lightBlue: '#E3F8FF'
+        lightBlue: '#E3F8FF',
+        grayColor: '#7D7D88',
+        
       },
       boxShadow: {
         DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.02)',

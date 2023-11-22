@@ -14,14 +14,16 @@
                 </div>
                 <!-- InputGroup -->
             </div>
-            <Button label="Ro’yxatdan o’tish" />
+            <button class="button">Ro'yxatdan o'tish</button>
             <div class="inline-flex items-center justify-center w-full">
                 <hr class="w-64 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
                 <span
                     class="absolute px-3 font-medium text-[#7D7D88] -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">yoki</span>
             </div>
-            <Button icon="@/assets/images/google.svg" class="bg-transparent border-2" labelClass="text-[#7D7D88]"
-                label="Google bilan" />
+            <button class="buttonOutline buttonIconFlex">
+                <img src="@/assets/images/google.svg" alt="">
+                <span>Google bilan</span>
+            </button>
             <h1 class="text-[#7D7D88] text-center">Ro’yxatdan o’tkanmisiz? <a href="#" class="text-[#0766FF]">Profilga
                     kirish</a></h1>
         </div>
