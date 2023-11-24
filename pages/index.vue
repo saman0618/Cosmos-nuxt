@@ -13,5 +13,7 @@
             <h1 class="text-[18px]">Sizga tavsiya qilamiz</h1>
             <Recommendation/>
         </div>
+        
     </NuxtLayout>
+    
 </template>
