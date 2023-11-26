@@ -9,7 +9,7 @@
                     <Badge blue label="24/100%" />
                 </div>
                 <div class="progress-section w-full">
-                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="w-full bg-lightBlue rounded-full h-2.5 dark:bg-gray-700">
                         <div class="bg-blueTheme h-2.5 rounded-full" style="width: 45%"></div>
                     </div>
                 </div>
@@ -28,12 +28,12 @@
 
             <div class="w-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg w-full object-cover"  src="@/assets/images/cardBanner.png" alt="" />
+                    <img class="rounded-t-lg w-full object-cover" src="@/assets/images/cardBanner.png" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#" class="flex items-center">
                         <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white inline-block">
-                            After Effects   
+                            After Effects
                         </h5>
                         <div class="inline-block ml-3">
                             <Badge blue label="24 dars" />
@@ -42,9 +42,10 @@
                             <Badge purple label="DIZAYN" />
                         </div>
                     </a>
-                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay olasiz!</p>
-                    <a href="#"
-                        class="button" style="margin-top: 3rem; border-radius: 99999px;">
+                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni
+                        o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay
+                        olasiz!</p>
+                    <a href="#" class="button" style="margin-top: 3rem; border-radius: 99999px;">
                         Davom ettirish
                     </a>
                 </div>
@@ -52,12 +53,12 @@
 
             <div class="w-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg w-full object-cover"  src="@/assets/images/cardBanner.png" alt="" />
+                    <img class="rounded-t-lg w-full object-cover" src="@/assets/images/cardBanner.png" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#" class="flex items-center">
                         <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white inline-block">
-                            After Effects   
+                            After Effects
                         </h5>
                         <div class="inline-block ml-3">
                             <Badge blue label="24 dars" />
@@ -66,9 +67,10 @@
                             <Badge purple label="DIZAYN" />
                         </div>
                     </a>
-                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay olasiz!</p>
-                    <a href="#"
-                        class="button" style="margin-top: 3rem; border-radius: 99999px;">
+                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni
+                        o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay
+                        olasiz!</p>
+                    <a href="#" class="button" style="margin-top: 3rem; border-radius: 99999px;">
                         Boshlash
                     </a>
                 </div>
@@ -81,12 +83,12 @@
 
             <div class="w-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg w-full object-cover"  src="@/assets/images/cardBanner.png" alt="" />
+                    <img class="rounded-t-lg w-full object-cover" src="@/assets/images/cardBanner.png" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#" class="flex items-center">
                         <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white inline-block">
-                            After Effects   
+                            After Effects
                         </h5>
                         <div class="inline-block ml-3">
                             <Badge blue label="24 dars" />
@@ -95,9 +97,10 @@
                             <Badge purple label="DIZAYN" />
                         </div>
                     </a>
-                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay olasiz!</p>
-                    <a href="#"
-                        class="button" style="margin-top: 3rem; border-radius: 99999px;">
+                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni
+                        o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay
+                        olasiz!</p>
+                    <a href="#" class="button" style="margin-top: 3rem; border-radius: 99999px;">
                         Kurs haqida
                     </a>
                 </div>
@@ -105,12 +108,12 @@
 
             <div class="w-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg w-full object-cover"  src="@/assets/images/cardBanner.png" alt="" />
+                    <img class="rounded-t-lg w-full object-cover" src="@/assets/images/cardBanner.png" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#" class="flex items-center">
                         <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white inline-block">
-                            After Effects   
+                            After Effects
                         </h5>
                         <div class="inline-block ml-3">
                             <Badge blue label="24 dars" />
@@ -119,15 +122,15 @@
                             <Badge purple label="DIZAYN" />
                         </div>
                     </a>
-                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay olasiz!</p>
-                    <a href="#"
-                        class="button" style="margin-top: 3rem; border-radius: 99999px;">
+                    <p class="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">Animatsion multiklar yaratishni
+                        o’rganing. Bu bilan barcha turdagi roliklarni yasay olasiz! Bu bilan barcha turdagi roliklarni yasay
+                        olasiz!</p>
+                    <a href="#" class="button" style="margin-top: 3rem; border-radius: 99999px;">
                         Kurs haqida
                     </a>
                 </div>
             </div>
 
         </div>
-    </div>
-</template>
-<style>@import "./courses.css";</style>
+</div></template>
+<style>@import "./courses.css";</style> 
