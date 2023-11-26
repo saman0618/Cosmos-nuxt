@@ -22,4 +22,7 @@ body {
   .buttonIconFlex {
     @apply flex items-center gap-2 justify-center
   }
+  .buttonOutline{
+    @apply py-[10px] px-[16px] border border-mainBlue text-mainBlue rounded-full;
+  }
 }
