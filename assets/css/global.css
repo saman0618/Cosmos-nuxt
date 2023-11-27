@@ -1,28 +1,72 @@
+/* Importing Google Font */
 @import url("https://fonts.googleapis.com/css?family=Onest:100,200,300,regular,500,600,700,800,900");
+
+/* Applying font to all elements */
 * {
   font-family: "Onest", sans-serif;
 }
+
+/* Body styles */
 body {
   background-color: rgba(7, 102, 255, 0.034);
 }
-@tailwind components;
-@layer components{
-  .title{
-    @apply text-2xl font-semibold
-  }
-  .card {
-    @apply shadow-md rounded-xl p-6
-  }
-  .button{
-    @apply text-white bg-[#0766FF] focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-6 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
-  }
-  .buttonOutline{
-    @apply text-grayColor bg-transparent border focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-6 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
-  }
-  .buttonIconFlex {
-    @apply flex items-center gap-2 justify-center
-  }
-  .buttonOutline{
-    @apply py-[10px] px-[16px] border border-mainBlue text-mainBlue rounded-full;
-  }
+
+/* Title component styles */
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Card component styles */
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+/* Button component styles */
+.button {
+  color: white;
+  background-color: #0766ff;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  padding: 0.875rem 1.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Button Outline component styles */
+.buttonOutline {
+  color: #4a5568;
+  background-color: transparent;
+  border: 1px solid;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  padding: 0.875rem 1.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Button Icon Flex component styles */
+.buttonIconFlex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* Additional Button Outline styles */
+.buttonOutline {
+  padding: 0.625rem 1rem;
+  border: 1px solid #0766ff;
+  color: #0766ff;
+  border-radius: 9999px;
+}
+
+/* Outline button */
+.outlineIt {
+  
 }

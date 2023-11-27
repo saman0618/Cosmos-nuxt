@@ -38,7 +38,7 @@
                 <span
                     class="absolute px-3 font-medium text-[#7D7D88] -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">yoki</span>
             </div>
-            <button class="button bg-transparent border buttonIconFlex" style="background: transparent;">
+            <button class="button outline border buttonIconFlex" style="background: transparent;">
                 <img src="@/assets/images/google.svg" alt="">
                 <span class="text-[#7d7d88]">Google bilan kiring</span>
             </button>
