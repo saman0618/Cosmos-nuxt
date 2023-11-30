@@ -1,6 +1,6 @@
 <template>
     <div class="surface w-full h-screen">
-        <div class="card flex flex-col gap-6">
+        <div class="card flex flex-col w-1/2 gap-6">
             <h1 class="title">Ro’yxatdan o’tish</h1>
             <div class="form">
                 <label for="number">Parol o‘ylab toping</label>
@@ -29,8 +29,8 @@
                 <!-- InputGroup -->
             </div>
             <div class="flex justify-between">
-                <Button label="Orqaga qaytish" className="border bg-white" labelClass="text-[#636282]" />
-                <Button label="Saqlash" />
+                <button class="buttonOutline">Orqaga qaytish</button>
+                <button class="button">Davom etish</button>
             </div>
         </div>
     </div>

@@ -54,11 +54,11 @@
             </button>
             
             <div class="flex justify-between">
-                <button class="buttonOutline buttonIconFlex">
+                <button class="buttonOutlineColored buttonIconFlex">
                     <img src="@/assets/icon/arrow.svg" class="rotate-180" alt="">
                     <span>Avvalgi dars</span>
                 </button>
-                <button class="buttonOutline buttonIconFlex">
+                <button class="buttonOutlineColored buttonIconFlex">
                     <span>Keyingi dars</span>
                     <img src="@/assets/icon/arrow.svg" alt="">
                 </button>

@@ -17,11 +17,11 @@
             <div v-for="item in items" :key="item.number" class="mb-4 p-4 rounded-full"
                 style="background: rgba(0, 187, 255, 0.206);">
                 <div class="flex px-4 items-center justify-between mb-2">
-                    <div class="flex items-center gap-5">
-                        <div class="bg-blueTheme text-white p-3 px-5  rounded-full">{{ item.number }}</div>
+                    <div class="flex items-center gap-2">
+                        <div class="bg-blueTheme text-white py-1 px-3 rounded-full">{{ item.number }}</div>
                         <div class="text-lg">{{ item.title }}</div>
                     </div>
-                    <div class="flex items-center">
+                    <div class="flex items-center gap-8">
                         <Rating :maxStars="5" :initialRating="item.rating" />
                         <span class="mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">

@@ -1,0 +1,54 @@
+<template>
+  <div class="flex h-[100vh]">
+    <Sidebar />
+    <div class="flex flex-col flex-1">
+      <Header />
+      <Tab :tabs="tabs" />
+      <div class="flex-3 p-6">
+        <Nuxt />
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+import Tab from '@/components/Tab/Tab.vue'
+export default {
+  components: {
+    Tab,
+  },
+
+  data() {
+    return {
+      tabs: [
+        {
+          title: 'Asosiy malumotlar' },
+        { title: '4 Amallar tarixi' },
+        { title: 'Havfsizlik' },
+      ],
+    };
+  },
+};
+</script>
+<style scoped>
+.app-container {
+  display: flex;
+  /* flex-direction: column; */
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-content {
+  flex: 3;
+  /* Adjust the proportion as needed */
+  padding: 20px;
+  /* Add padding as needed */
+}
+
+/* Add any other styling for Header and Sidebar here */
+</style>
+  
