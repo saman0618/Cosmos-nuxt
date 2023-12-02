@@ -1,6 +1,8 @@
 <template>
-    <div>
-        <div class="flex rounded-xl bg-white  border-2  border-slate-300 p-4 mt-5">
+    <div class="px-8 py-2">
+        <h1 class="text-[18px]">Sizga tavsiya qilamiz</h1>
+
+        <div class="flex rounded-xl bg-white  border-2  border-slate-300 p-4 mt-2">
                 <div class="">
                     <img src="@/assets/images/Rectangle 7.svg" alt="">
                 </div>
