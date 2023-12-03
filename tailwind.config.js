@@ -22,6 +22,9 @@ module.exports = {
         grayText: 'rgba(99, 98, 130, 0.50)',
         secondText: 'rgba(125, 125, 136, 1)',
         secondTextBg: 'rgba(248, 250, 253, 1)',
+        cardBg: 'rgba(250, 251, 254, 1)',
+        greenSuccess: 'rgba(11, 182, 141, 1)',
+        orangeColor: 'rgba(255, 111, 7, 1)',
         
       },
       boxShadow: {

@@ -3,9 +3,12 @@
     <Sidebar />
     <div class="flex flex-col flex-1">
       <Header />
-      <div class="flex-3 p-6">
+      <div class="flex-3 flex flex-col gap-[21px] p-6">
         <Tab />
-        <Nuxt />
+        <div class="w-full p-4 flex bg-white gap-[24px] h-full rounded-[12px]"
+          style="box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);">
+          <Nuxt />
+        </div>
       </div>
     </div>
   </div>
