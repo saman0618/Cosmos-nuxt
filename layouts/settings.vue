@@ -3,31 +3,15 @@
     <Sidebar />
     <div class="flex flex-col flex-1">
       <Header />
-      <Tab :tabs="tabs" />
       <div class="flex-3 p-6">
+        <Tab />
         <Nuxt />
       </div>
     </div>
   </div>
 </template>
-<script>
+<script setup>
 import Tab from '@/components/Tab/Tab.vue'
-export default {
-  components: {
-    Tab,
-  },
-
-  data() {
-    return {
-      tabs: [
-        {
-          title: 'Asosiy malumotlar' },
-        { title: '4 Amallar tarixi' },
-        { title: 'Havfsizlik' },
-      ],
-    };
-  },
-};
 </script>
 <style scoped>
 .app-container {

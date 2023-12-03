@@ -1,71 +1,32 @@
 <template>
-    <div class="tabs">
-        <ul class="tabs__list">
-            <li v-for="tab in tabs" :key="tab.title" class="tabs__item" :class="{ 'tabs__item--active': tab.active }">
-                <a href="#" @click="onTabClick(tab)">{{ tab.title }}</a>
-            </li>
-        </ul>
-        <div class="tabs__content">
-            <slot></slot>
-        </div>
+    <div class="w-full p-4 flex bg-white gap-[24px] rounded-[12px]" style="box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);">
+        <button class="py-[12px] px-[18px] active rounded-[12px] flex w-max gap-[10px]">
+            <img src="~/assets/icon/account.svg" alt="">
+            <span class="">Asosiy ma’lumotlar</span>
+        </button>
+        <button class="py-[12px] px-[18px] default rounded-[12px] flex w-max gap-[10px]">
+            <img src="~/assets/icon/bitcoin.svg" alt="">
+            <span class="">Amallar tarixi</span>
+        </button>
+        <button class="py-[12px] px-[18px] default rounded-[12px] flex w-max gap-[10px]">
+            <img src="~/assets/icon/secure.svg" alt="">
+            <span class="">Havfsizlik</span>
+        </button>
     </div>
 </template>
   
-<script>
-export default {
-    name: 'Tabs',
+<script setup>
 
-    props: {
-        tabs: {
-            type: Array,
-            required: true,
-        },
-    },
-
-    data() {
-        return {
-            activeTab: this.tabs[0],
-        };
-    },
-
-    methods: {
-        onTabClick(tab) {
-            this.activeTab = tab;
-            this.$emit('tab-click', tab);
-        },
-    },
-};
 </script>
+
 <style scoped>
-.tabs {
-    width: 100%;
-    height: 40px;
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
+.active {
+    background: #E3F8FF;
+    color: rgba(7, 102, 255, 1);
 }
-
-.tabs__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.tabs__item {
-    float: left;
-    width: 25%;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.tabs__item a {
-    color: #000;
-    text-decoration: none;
-}
-
-.tabs__item--active {
-    background-color: #000;
-    color: #fff;
+.default {
+    background: rgba(248, 250, 253, 1);
+    color: rgba(125, 125, 136, 1);
 }
 </style>
+

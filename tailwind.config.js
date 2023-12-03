@@ -19,7 +19,10 @@ module.exports = {
         orange: 'rgba(255, 111, 7, 1)',
         dark: 'rgba(12, 11, 66, 1)',
         lightCyan: 'rgba(122, 178, 229, 0.20)',
-        grayText: 'rgba(99, 98, 130, 0.50)'
+        grayText: 'rgba(99, 98, 130, 0.50)',
+        secondText: 'rgba(125, 125, 136, 1)',
+        secondTextBg: 'rgba(248, 250, 253, 1)',
+        
       },
       boxShadow: {
         DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.02)',
