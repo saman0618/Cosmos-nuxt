@@ -130,7 +130,13 @@
                     </a>
                 </div>
             </div>
-
+            <Search />
         </div>
-</div></template>
-<style>@import "./courses.css";</style> 
+    </div>
+</template>
+<script setup>
+import { Search } from '~/components/Search/Search.vue'
+</script>
+<style>
+@import "./courses.css";
+</style> 

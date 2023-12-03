@@ -34,7 +34,8 @@
 @import url('../auth.css');
 </style>
 <script>
-export default {
-    layout: "auth"
-}
+    export default {
+        layout: "auth"
+    }
 </script>
+
