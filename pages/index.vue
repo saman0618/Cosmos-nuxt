@@ -9,10 +9,17 @@
             <LearningCard/>
             
         </div>
-        <div class="px-8 pt-5 ">
-            <h1 class="text-[18px]">Sizga tavsiya qilamiz</h1>
+        <Planeta />
+        <div class="flex justify-between w-full">
+          <div class=" w-full">
+            <LiderTablesa />
             <Recommendation/>
+
+          </div>
+          <Kalendar />
         </div>
+        
+        
         
     </NuxtLayout>
     

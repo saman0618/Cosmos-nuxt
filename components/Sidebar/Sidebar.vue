@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="sidebar">
     <div
       class="px-4 py-2 w-max inline-block overflow-scroll bg-white h-[100vh]"
     >
@@ -85,22 +85,22 @@ export default {
   </div>
 </template>
 <style>
-::-webkit-scrollbar {
+.sidebar>::-webkit-scrollbar {
   width: 12px;
 }
 
-::-webkit-scrollbar-track {
+.sidebar>::-webkit-scrollbar-track {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+.sidebar>::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: transparent;
 }
 
-::-webkit-scrollbar-thumb:window-inactive {
+.sidebar>::-webkit-scrollbar-thumb:window-inactive {
   background: transparent;
 }
 </style>

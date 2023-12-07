@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { initFlowbite } from 'flowbite'
 
+
 const courses = ref([
   {
     id: 1,
@@ -48,65 +49,58 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div class="overflow-x-auto m-[24px] mt-10 rounded-xl border-2">
-    <table class="text-[16px] text-left w-full">
-      <thead
-        class="text-[16px] text-[#000000] uppercase border-b-1 bg-cyan-100"
-      >
-        <tr class="   ">
-          <th scope="col" class="px-6 py-3">
-            Kurs
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Muallif
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Yo‘nalish
-          </th>
-          <th scope="col" class="px-6 py-3">
-            O’quvchilar
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Status
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Yana
-          </th>
-        </tr>
-      </thead>
 
-      <tbody class="">
-        <tr v-for="course in courses" :key="course.id" class="border-2 rounded">
-          <th scope="row" class="font-medium">
+  <div class="overflow-x-auto m-[24px] mt-5 rounded-xl">
+    
+    <div class=" mx-auto bg-white  shadow-md w-full ">
+      <!-- Заголовок таблицы -->
+      <div
+        class=" font-bold text-[16px] text-[#000000] uppercase border-b-1 grid grid-cols-7   bg-cyan-100 p-5"
+      >
+        <div class="w-full text-left px-6 py-3 col-span-2   ">Kurs</div>
+        <div class="w-full text-left px-6 py-3">Muallif</div>
+        <div class="w-full text-left px-6 py-3">Yo‘nalish</div>
+        <div class="w-full text-left px-6 py-3">O’quvchilar</div>
+        <div class="w-full text-left px-6 py-3">Status</div>
+        <div class="w-full text-right px-6 py-3">Yana</div>
+      </div>
+
+      <!-- Строки таблицы -->
+      <div class="py-2 px-4">
+        <div
+          class=" grid grid-cols-7 rounded-[16px] bg-[#FAFBFE] text-center border-1 mb-2"
+          v-for="course in courses"
+          :key="course.id"
+        >
+          <div class="w-full flex items-center col-span-2   ">
             <div
-              class="px-6 py-4 font-normal text-[16px] flex items-center gap-5"
+              class="px-6 py-4 font-normal text-[16px]  flex items-center gap-5 "
             >
               <img src="@/assets/icon/Rectangle 7.svg" alt="" />
               <h1 class="">{{ course.name }}</h1>
             </div>
-          </th>
-          <td class="px-6 py-4">
+          </div>
+          <div class="w-full flex items-center  px-6 py-4">
             {{ course.author }}
-          </td>
-          <td class="px-6 py-4">
+          </div>
+          <div class="w-full flex items-center  px-6 py-4">
             {{ course.direction }}
-          </td>
-          <td class="px-6 py-4">
+          </div>
+          <div class="w-full flex items-center  px-6 py-4">
             {{ course.students }}
-          </td>
-          <td class="px-6 py-4">
+          </div>
+          <div class="w-full flex items-center  px-6 py-4">
             <button
-              class="rounded-lg text-center w-[44px] h-[26px] bg-[#0BB68D] text-white"
+              class="rounded-lg text-center w-[44px] h-[26px] bg-[#0BB68D] text-white" 
             >
               {{ course.status }}
             </button>
-          </td>
-
-          <td class="px-6 py-4">
-            <button
+          </div>
+          <div class="px-6 py-4 text-right">
+          <button
               id="dropdownMenuIconButton"
               :data-dropdown-toggle="course.id"
-              class="inline-flex items-center p-2 text-[16px] font-medium text-center text-gray-900 bg-white rounded-full focus:ring-4 focus:outline-none"
+              class="inline-flex items-center p-2 text-[16px] font-medium text-center text-gray-900 bg-white rounded-full "
               type="button1"
             >
               <svg
@@ -121,7 +115,8 @@ onMounted(() => {
                 />
               </svg>
             </button>
-            <div
+          </div>
+          <div
               :id="course.id"
               class="z-10 hidden divide-y text-[16px] divide-gray-100 rounded-lg shadow bg-white"
             >
@@ -146,9 +141,8 @@ onMounted(() => {
                 </li>
               </ul>
             </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
