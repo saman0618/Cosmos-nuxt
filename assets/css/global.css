@@ -6,3 +6,22 @@ body {
   background-color: rgba(7, 102, 255, 0.034);
 }
 
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components{ 
+  .button-success {
+    @apply rounded-lg border border-[#0C9E7B] bg-[#0BB68D] py-[8px] px-[12px] text-white;
+  }
+  .button-success-outline {
+    @apply rounded-lg border border-[#0C9E7B] bg-transparent py-[8px] px-[12px] text-[#0C9E7B];
+  }
+  .button-secondary-outline {
+    @apply rounded-lg border border-[#7D7D88] bg-transparent py-[8px] px-[12px] text-black;
+  }
+  .button-primary-outline {
+    @apply rounded-[12px] border border-[#0766FF] text-[#0766FF] bg-transparent py-[12px] px-[20px];
+  }
+}

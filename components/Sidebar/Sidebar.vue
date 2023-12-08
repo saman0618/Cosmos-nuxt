@@ -8,12 +8,12 @@ export default {
   <div class="sidebar">
     <div
       class="px-4 py-2 w-max inline-block overflow-scroll bg-white h-[100vh]"
+      style="box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05)"
     >
       <img src="@/assets/images/logo.png" alt="" />
     </div>
     <div
       class="px-4 py-2 w-max inline-block bg-white overflow-auto h-[100vh] fixed left-0"
-      style="box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05)"
     >
       <img src="@/assets/images/logo.png" alt="" />
       <section class="flex flex-col">
