@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
-  name: "Navbar",
-};
+  name: 'Navbar',
+}
 </script>
 
 <template>
@@ -13,69 +13,76 @@ export default {
       <img src="@/assets/images/logo.png" alt="" />
     </div>
     <div
-      class="px-4 py-2 w-max inline-block bg-white overflow-auto h-[100vh] fixed left-0"
+      class="px-4 py-2 w-max inline-block bg-white overflow-auto  h-[100vh] fixed left-0"
+      style="box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);"
+
     >
       <img src="@/assets/images/logo.png" alt="" />
-      <section class="flex flex-col">
-        <h1 class="flex px-2 text-[#0766FF] text-[18px] font-medium mt-8">
-          <img
-            class="mr-1"
-            src="@/assets/icon/Home Smile Angle.svg"
-            alt=""
-          />Bosh sahifa
-        </h1>
-        <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets/icon/Laptop.svg" alt="" />Kurslar
-        </h1>
-        <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
+      <section class="flex flex-col ">
+        <NuxtLink
+          to="/"
+          class="flex px-2 text-[#7D7D88] hover:text-blue-500   text-[18px] font-medium mt-8"
+        >
+          <img class="mr-1 " src="@/assets/icon/Home Smile Angle.svg" alt="" />
+          Bosh sahifa
+        </NuxtLink>
+        <NuxtLink
+          to="/courses"
+          class="flex px-2 hover:text-blue-500  text-[#7D7D88] mt-8 text-[18px] font-medium"
+        >
+          <img class="mr-1" src="@/assets/icon/Laptop.svg" alt="" />
+          Kurslar
+        </NuxtLink>
+        <NuxtLink
+          to="/tests"
+          class="flex px-2 hover:text-blue-500  text-[#7D7D88] mt-8 text-[18px] font-medium"
+        >
           <img
             class="mr-1"
             src="@/assets/icon/Checklist Minimalistic.svg"
             alt=""
-          />Testlar
-        </h1>
-        <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
+          />
+          Testlar
+        </NuxtLink>
+        <h1 class="flex px-2 hover:text-blue-500  text-[#7D7D88] mt-8 text-[18px] font-medium">
           <img
             class="mr-1"
             src="@/assets/icon/Users Group Rounded.svg"
             alt=""
-          />O‘quvchilar
+          />
+          O‘quvchilar
+        </h1>
+        <h1 class="flex px-2 hover:text-blue-500  text-[#7D7D88] mt-8 text-[18px] font-medium">
+          <img class="mr-1" src="@/assets/icon/Case Minimalistic.svg" alt="" />
+          Hodimlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img
-            class="mr-1"
-            src="@/assets/icon/Case Minimalistic.svg"
-            alt=""
-          />Hodimlar
+          <img class="mr-1" src="@/assets/icon/Letter.svg" alt="" />
+          SMS xabarlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets/icon/Letter.svg" alt="" />SMS xabarlar
+          <img class="mr-1" src="@/assets/icon/Cart.svg" alt="" />
+          Shop
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets/icon/Cart.svg" alt="" />Shop
+          <img class="mr-1" src="@/assets/icon/Calendar.svg" alt="" />
+          Tadbirlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets/icon/Calendar.svg" alt="" />Tadbirlar
+          <img class="mr-1" src="@/assets/icon/Shield Star.svg" alt="" />
+          Yutuqlar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img
-            class="mr-1"
-            src="@/assets/icon/Shield Star.svg"
-            alt=""
-          />Yutuqlar
+          <img class="mr-1" src="@/assets/icon/Cup Star.svg" alt="" />
+          Reytinglar
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets/icon/Cup Star.svg" alt="" />Reytinglar
+          <img class="mr-1" src="@/assets/icon/Pie Chart 2.svg" alt="" />
+          Analitika
         </h1>
         <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img
-            class="mr-1"
-            src="@/assets/icon/Pie Chart 2.svg"
-            alt=""
-          />Analitika
-        </h1>
-        <h1 class="flex px-2 text-[#7D7D88] mt-8 text-[18px] font-medium">
-          <img class="mr-1" src="@/assets/icon/Gamepad.svg" alt="" />O‘yinlar
+          <img class="mr-1" src="@/assets/icon/Gamepad.svg" alt="" />
+          O‘yinlar
         </h1>
       </section>
       <h1 class="text-[18px] text-[#63628266] font-medium px-2 mt-14">
@@ -85,22 +92,22 @@ export default {
   </div>
 </template>
 <style>
-.sidebar>::-webkit-scrollbar {
+.sidebar > ::-webkit-scrollbar {
   width: 12px;
 }
 
-.sidebar>::-webkit-scrollbar-track {
+.sidebar > ::-webkit-scrollbar-track {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 
-.sidebar>::-webkit-scrollbar-thumb {
+.sidebar > ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: transparent;
 }
 
-.sidebar>::-webkit-scrollbar-thumb:window-inactive {
+.sidebar > ::-webkit-scrollbar-thumb:window-inactive {
   background: transparent;
 }
 </style>
