@@ -1,22 +1,44 @@
 <template>
-    <input :type="type"
-        class="bg-white border focus:outline-none border-[#DBDBDB] text-[#7D7D88] text-sm rounded-lg block w-full py-3.5 px-4   bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-blue-500  focus:border-blue-500"
-        :class="className"
-        :placeholder="placeh">
+  <input
+    :type="type"
+    :class="['input-style', className]"
+    :style="inputgroup === 'true' ? {'border-left': '0px', 'border-top-left-radius': '0', 'border-bottom-left-radius': '0'} : {}"
+    :placeholder="placeh"
+  />
 </template>
+
 <script lang="ts">
 export default {
-    props: {
-        placeh: {
-            type: String,
-        },
-        type: {
-            type: String,
-            required: true,
-        },
-        className: {
-            type: String,
-        }
-    }
-}
+  props: {
+    placeh: {
+      type: String,
+    },
+    type: {
+      type: String,
+      required: true,
+    },
+    className: {
+      type: String,
+    },
+    inputgroup: {
+      type: String,
+    },
+  },
+};
 </script>
+
+<style scoped>
+.input-style {
+  background-color: white;
+  border: 1px solid #DBDBDB;
+  outline: none;
+  color: #7D7D88;
+  font-size: 14px;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  padding: 14px 16px;
+}
+
+/* Добавьте стили для дополнительных классов, если необходимо */
+</style>

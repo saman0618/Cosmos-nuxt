@@ -2,6 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: false,
+  quiet: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'cosmos-nuxt',
@@ -38,7 +39,6 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],

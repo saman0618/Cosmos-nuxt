@@ -16,8 +16,8 @@
                     <Stopwatch/>
                 </div>
                 <div class="flex gap-12 justify-between">
-                    <Button label="Orqaga qaytish" class="bg-white border" labelClass="text-[#636282]"/>
-                    <Button label="Tasdiqlash"/>
+                    <button class="buttonOutline">Orqaga qaytish</button>
+                    <button class="button">Tasdiqlash</button>
                 </div>
             </div>
         </div>
