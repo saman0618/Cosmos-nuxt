@@ -1,4 +1,4 @@
-export enum RouterPaths {
+export enum RouterPaths{
   COURSES = "COURSES",
   COURSES_UPDATE = "COURSES_UPDATE",
   COURSES_STUNDETS = "COURSES_STUNDETS",

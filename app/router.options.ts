@@ -1,5 +1,5 @@
 import type {RouterConfig} from '@nuxt/schema'
-import { RouterPaths } from '~/types/router';
+import { RouterPaths} from '@/types/router';
 
 export default <RouterConfig>{
   
