@@ -1,15 +1,15 @@
 <template>
     <div>
      <div >
-    <Navbar />
+    <!-- <Navbar /> -->
     <Table3 />
     </div>
 </div>
 
 </template>
 
-<script setup>
-import Navbar from '~/components/navbar/Navbar'
+<script setup >
+
 import Table3 from '~/components/table/Table3'
 
 </script>

@@ -7,11 +7,12 @@ import { onMounted, ref } from 'vue'
 import { initFlowbite } from 'flowbite'
 import WButton from '../../components/wButton/WButton.vue'
 
+
+
 const courses = ref([
   {
     id: 1,
     name: 'Scratch dasturlash kursi',
-    class: 'rounded-[8px] text-center text-[16px] p-[8px] bg-[#0BB68D] text-white activeStatus',
     direction: 'Kursga oid',
     students: 'Dasturlash',
     status: 'To’liq',
@@ -23,7 +24,6 @@ const courses = ref([
     direction: 'Kursdan tashqari',
     students: 'Dizayn',
     status: 'To`liq emas',
-    class: 'rounded-[8px] text-center text-[16px] p-[8px] bg-[#0BB68D] text-white secondaryStatus',
     extra: [],
   },
   {
@@ -33,7 +33,6 @@ const courses = ref([
     direction: 'Kursdan tashqari',
     students: 'Umumiy',
     status: 'To`liq emas',
-    class: 'rounded-[8px] text-center text-[16px] p-[8px] bg-[#0BB68D] text-white secondaryStatus',
     extra: [],
   },
 ])
@@ -88,11 +87,8 @@ onMounted(() => {
               {{ course.students }}
             </div>
             <div class="w-full flex items-center justify-end px-6 py-4">
-              <button
-                :class="course.class"
-              >
-                {{ course.status }}
-              </button>
+            
+              <WButton :text="course.status" />
             </div>
           </div>
         </div>
@@ -101,14 +97,7 @@ onMounted(() => {
   </div>
 </template>
 <style scoped>
-.activeStatus{
-  background: #0BB68D;
-  color: white;
-}
-.secondaryStatus {
-  background: #7D7D88;
-  color: white
-}
+
 @tailwind components;
 @layer components {
   
