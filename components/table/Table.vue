@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import { initFlowbite } from 'flowbite'
+import WButton from '../wButton/WButton.vue'
 
 
 const courses = ref([
@@ -77,7 +78,7 @@ onMounted(() => {
               class="px-6 py-4 font-normal text-[16px] hover:text-blue-500   flex items-center gap-5 "
             >
               <img src="@/assets/icon/Rectangle 7.svg" alt="" />
-               <NuxtLink to="/courses/scratch">  {{ course.name }} </NuxtLink>
+               <NuxtLink to="/courses/update">  {{ course.name }} </NuxtLink>
             </div>
           </div>
           <div class="w-full flex items-center  px-6 py-4">
@@ -90,11 +91,8 @@ onMounted(() => {
             {{ course.students }}
           </div>
           <div class="w-full flex items-center  px-6 py-4">
-            <button
-              class="rounded-lg text-center w-[44px] h-[26px] bg-[#0BB68D] text-white" 
-            >
-              {{ course.status }}
-            </button>
+         
+            <WButton :text="course.status" />
           </div>
           <div class="px-6 py-4 text-right">
           <button

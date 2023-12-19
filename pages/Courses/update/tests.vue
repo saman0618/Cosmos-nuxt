@@ -1,3 +1,3 @@
 <template>
-    <h1>sdfg</h1>
+    <h1>Tests</h1>
 </template>

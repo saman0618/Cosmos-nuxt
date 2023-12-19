@@ -1,11 +1,13 @@
 <script setup>
 
+
 </script>
 
 <template>
-  
-  
-  <nav class="rounded-xl bg-white px-2 border m-[24px] ">
+
+ 
+
+  <nav  class="rounded-xl bg-white px-2 border m-[24px] ">
   <div class="mx-auto max-w-7xl   ">
     <div class="relative flex h-16 items-center justify-between ">
 
@@ -13,10 +15,10 @@
         <div class="hidden  sm:block">
           <div class="flex  ">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300  hover:text-white" -->
-            <a href="#" class=" text-[#0C0B42] d rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Asosiy</a>
+            <NuxtLink to="/courses/update" class=" text-[#0C0B42] d rounded-md px-3 py-2 text-sm font-medium" >Asosiy</NuxtLink>
             <a href="#" class="text-[#0C0B42] hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium">Kurs dasturi</a>
             <NuxtLink to="/courses/students" class="text-[#0C0B42]  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium">O’quvchilar </NuxtLink>
-            <NuxtLink to="/courses/testes" class="text-[#0C0B42]  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium">Testlar</NuxtLink>
+            <NuxtLink to="/courses/tests" class="text-[#0C0B42]  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium">Testlar</NuxtLink>
             <a href="#" class="text-[#0C0B42]  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium">Sozlamalar</a>
           </div>
         </div>
