@@ -10,9 +10,24 @@ module.exports = {
     extend: {
       colors: {
         'gray1': "#7D7D88",
-        'white': " #ffff",
         'lightBlue': "#00B9FF",
-        'main-blue': "#0766FF"
+        'main-blue': "#0766FF",
+        'borderColor': '#DBDBDB',
+        blueTheme: '#00B9FF',
+        purpleTheme: '#7600ED',
+        'grayColor': '#7D7D88',
+        secondary: '#7D7D88',
+        yellowBg: 'rgba(241, 231, 201, 1)',
+        mainBlue: 'rgba(7, 102, 255, 1)',
+        orange: 'rgba(255, 111, 7, 1)',
+        dark: 'rgba(12, 11, 66, 1)',
+        lightCyan: 'rgba(122, 178, 229, 0.20)',
+        grayText: 'rgba(99, 98, 130, 0.50)',
+        secondText: 'rgba(125, 125, 136, 1)',
+        secondTextBg: 'rgba(248, 250, 253, 1)',
+        cardBg: 'rgba(250, 251, 254, 1)',
+        greenSuccess: 'rgba(11, 182, 141, 1)',
+        orangeColor: 'rgba(255, 111, 7, 1)',
 
       },
       boxShadow: {
@@ -65,6 +80,7 @@ module.exports = {
       zIndex: {
         60: '60',
       },
+
     },
   },
   // plugins: [

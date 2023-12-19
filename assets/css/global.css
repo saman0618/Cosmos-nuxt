@@ -6,12 +6,13 @@ body {
   background-color: rgba(7, 102, 255, 0.034);
 }
 
+
 @tailwind components;
 @tailwind base;
 @tailwind utilities;
 @tailwind variants;
 
-@layer components{ 
+@layer components{
   .button-success {
     @apply rounded-lg border border-[#0C9E7B] bg-[#0BB68D] py-[8px] px-[12px] text-white;
   }
@@ -19,9 +20,33 @@ body {
     @apply rounded-lg border border-[#0C9E7B] bg-transparent py-[8px] px-[12px] text-[#0C9E7B];
   }
   .button-secondary-outline {
-    @apply rounded-lg border border-[#7D7D88] bg-transparent py-[8px] px-[12px] text-black;
+    @apply rounded-lg border border-[#DBDBDB] bg-transparent py-[8px] px-[12px] text-black;
   }
   .button-primary-outline {
     @apply rounded-[12px] border border-[#0766FF] text-[#0766FF] bg-transparent py-[12px] px-[20px];
+  }
+  .buttonFlex {
+    @apply flex gap-2 items-center justify-center
+  }
+  .title{
+    @apply text-2xl font-semibold
+  }
+  .card {
+    @apply shadow-md rounded-xl p-6
+  }
+  .button{
+    @apply text-white bg-[#0766FF] focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-6 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
+  }
+  .buttonOutline{
+    @apply text-[#7D7D88] bg-transparent border focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-6 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
+  }
+  .buttonIconFlex {
+    @apply flex items-center gap-2 justify-center
+  }
+  .buttonOutline{
+    @apply py-[10px] px-[16px] border border-grayText text-grayText
+  }
+  .buttonOutlineColored{
+    @apply py-[10px] px-[16px] border border-mainBlue text-mainBlue rounded-xl
   }
 }

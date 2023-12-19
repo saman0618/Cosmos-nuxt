@@ -5,25 +5,29 @@
             <div class="form">
                 <label for="number">Telefon raqamingiz</label>
                 <!-- InputGroup -->
-                <div class="flex">
+                <div class="flex w-full">
                     <span
-                        class="inline-flex items-center px-3 text-sm border border-r-0  rounded-e-0 border-gray-300 rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
-                        <img src="@/assets/images/LoginCall.svg" alt="">
+                        class="inline-flex items-center px-3 text-sm border border-r-0  rounded-e-0 border-borderColor rounded-s-md">
+                        <img src="~/assets/images/LoginCall.svg" alt="">
                     </span>
                     <InputMask placeh="+998-99-999-99-99" />
                 </div>
                 <!-- InputGroup -->
             </div>
-            <Button label="Ro’yxatdan o’tish" />
+            <button class="button">Ro'yxatdan o'tish</button>
             <div class="inline-flex items-center justify-center w-full">
-                <hr class="w-64 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+                <hr class="w-64 h-px my-2 bg-gray-200 border-0 ">
                 <span
-                    class="absolute px-3 font-medium text-[#7D7D88] -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">yoki</span>
+                    class="absolute px-3 font-medium text-[#7D7D88] -translate-x-1/2 bg-white left-1/2 ">yoki</span>
             </div>
-            <Button icon="@/assets/images/google.svg" class="bg-transparent border-2" labelClass="text-[#7D7D88]"
-                label="Google bilan" />
-            <h1 class="text-[#7D7D88] text-center">Ro’yxatdan o’tkanmisiz? <a href="#" class="text-[#0766FF]">Profilga
-                    kirish</a></h1>
+
+            <button class="button-secondary-outline py-[12px] px-[16px] buttonFlex">
+              <img src="~/assets/images/google.svg" alt="">
+              <span>Google bilan</span>
+            </button>
+            <h1 class="text-[#7D7D88] text-center">Ro’yxatdan o’tkanmisiz? <NuxtLink to="/auth/login" exact class="text-[#0766FF]">Profilga
+                    kirish</NuxtLink></h1>
+
         </div>
     </div>
 </template>
@@ -32,7 +36,8 @@
 @import url('../auth.css');
 </style>
 <script>
-export default {
-    layout: "auth"
-}
+    export default {
+        layout: "auth"
+    }
 </script>
+

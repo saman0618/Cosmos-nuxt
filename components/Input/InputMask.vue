@@ -1,11 +1,11 @@
 <template>
     <div>
         <input v-model="phoneNumber" id="phoneNumber" type="tel"
-            class="bg-white border border-l-0 rounded-t-none rounded-b-none focus:outline-none border-[#DBDBDB] text-[#7D7D88] text-sm rounded-lg block w-full py-3.5 px-4   bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-blue-500  focus:border-blue-500"
+            class="bg-white border border-l-0 rounded-bl-none rounded-tl-none focus:outline-none border-[#DBDBDB] text-[#7D7D88] text-sm rounded-lg block w-full py-3.5 px-4 placeholder-gray-400 focus:ring-blue-500  focus:border-blue-500"
             :placeholder="placeh" />
     </div>
 </template>
-  
+
 <script>
 export default {
     data() {
@@ -30,4 +30,3 @@ export default {
     },
 };
 </script>
-  
